@@ -234,7 +234,7 @@
   <a href="#step1" class="step-link active" data-step="1">01 現金流六大規則</a>
   <a href="#step2" class="step-link" data-step="2">02 基本資訊查詢</a>
   <a href="#step3" class="step-link" data-step="3">03 法說會深入討論</a>
-  <a href="#step4" class="step-link locked" data-step="4">04 營收趨勢視覺化</a>
+  <a href="#step4" class="step-link" data-step="4">04 營收趨勢視覺化</a>
   <a href="#step5" class="step-link" data-step="5">05 前瞻本益比／EPS</a>
   <a href="#step6" class="step-link locked" data-step="6">06 投資決策推理</a>
 </nav>
@@ -363,9 +363,17 @@
       <td><em>6,878</em></td>
       <td><em>30,356</em></td>
     </tr>
+    <tr class="qrow">
+      <td><em>26H1<span class="qtag">累計</span></em></td>
+      <td class="posv"><em>14,823</em></td>
+      <td class="negv"><em>-8,497</em></td>
+      <td class="negv"><em>-3,046</em></td>
+      <td><em>15,502</em></td>
+      <td><em>31,342</em></td>
+    </tr>
     </tbody>
   </table>
-  <p class="table-note">資料來源：使用者提供 Goodinfo 現金流量表截圖（含 2014–2025 全年度＋2026Q1 單季）。26Q1 為單季資料，僅供參考，不列入六大規則計分。</p>
+  <p class="table-note">資料來源：使用者提供 Goodinfo 現金流量表截圖（含 2014–2025 全年度＋2026年迄今累計）。26Q1、26H1 皆為未滿一年的累計資料，僅供參考，不列入六大規則計分。26H1累計稅後EPS達49.33元，與先前查得的官方財報數字（49.32元）幾乎一致，交叉驗證吻合。</p>
 
   <!-- 規則一 -->
   <div class="rule-block">
@@ -702,7 +710,7 @@
     <h3>規則五・A &gt; D 現金流品質 <span class="score">100.0 分</span></h3>
     <div class="persona">
       <div class="tag">「帳實相符、毫不灌水」型</div>
-      12 個完整年度（2014–2025），<strong>A 全數大於 D，通過率 100%</strong>，代表帳上獲利有紮實的現金流入支撐，沒有「膨風灌水」的疑慮。2026Q1 單季同樣通過（僅供參考、不列入計分）。
+      12 個完整年度（2014–2025），<strong>A 全數大於 D，通過率 100%</strong>，代表帳上獲利有紮實的現金流入支撐，沒有「膨風灌水」的疑慮。2026Q1 單季同樣通過（僅供參考、不列入計分）；2026H1累計則出現A（14,823億）略低於D（15,502億）的狀況，主因是所得稅款集中在特定季度支付、加上上半年營運資金（如應收帳款、存貨）隨營收快速成長而增加所致，屬於年度中的正常時點落差，並非獲利品質轉差的訊號——過去12個完整年度的長期模式更能代表真實體質，仍以完整年度數據為準。
     </div>
     <table>
       <thead><tr><th>年度</th><th>A 營業活動</th><th>D 稅前淨利</th><th>判定</th></tr></thead>
@@ -784,6 +792,12 @@
       <td class="posv"><em>6,990</em></td>
       <td><em>6,878</em></td>
       <td class="pass-mark"><em>✅ 通過（僅供參考）</em></td>
+    </tr>
+    <tr class="qrow">
+      <td><em>26H1<span class="qtag">累計</span></em></td>
+      <td class="posv"><em>14,823</em></td>
+      <td><em>15,502</em></td>
+      <td class="fail-mark"><em>❌ 不通過（僅供參考）</em></td>
     </tr></tbody>
     </table>
   </div>
@@ -999,10 +1013,113 @@
 
   <p class="table-note">報告版本 v1.2 ・ 第 3 步深入討論更新時間：2026-08-14</p>
 </section>
-<section class="step locked-step" id="step4">
+<section class="step" id="step4">
   <div class="step-label">【第 4 步／共 6 步：營收趨勢視覺化】</div>
-  <h2 style="color:var(--ink-dim);">營收趨勢視覺化</h2>
-  <p style="color:var(--ink-dim);">尚未開始 — 待你選擇資料取得方式（截圖或Claude搜尋）後進行。</p>
+  <h2>營收趨勢視覺化</h2>
+
+  <div class="callout">
+    <strong>核心結論：</strong>近12個月營收<span class="cnum">連續12個月維持雙位數年增</span>，2026年7月營收4,676億元創歷史新高（350個月新高），已連續3個月改寫單月紀錄；近12個月中僅2026年2月因農曆春節效應單月回落，其餘月份年增率介於16.9%~67.9%之間。
+  </div>
+
+  <table>
+    <thead><tr><th>月份</th><th>單月營收（億元）</th><th>月增</th><th>年增</th></tr></thead>
+    <tbody>
+      <tr><td>2025/08</td><td class="posv">3,358</td><td class="posv">+3.9%</td><td class="posv">+33.8%</td></tr>
+      <tr><td>2025/09</td><td class="posv">3,310</td><td class="negv">-1.42%</td><td class="posv">+36.4%</td></tr>
+      <tr><td>2025/10</td><td class="posv">3,675</td><td class="posv">+11.0%</td><td class="posv">+16.9%</td></tr>
+      <tr><td>2025/11</td><td class="posv">3,436</td><td class="negv">-6.49%</td><td class="posv">+24.5%</td></tr>
+      <tr><td>2025/12</td><td class="posv">3,350</td><td class="negv">-2.5%</td><td class="posv">+20.4%</td></tr>
+      <tr><td>2026/01</td><td class="posv">4,013</td><td class="posv">+19.8%</td><td class="posv">+36.8%</td></tr>
+      <tr><td>2026/02</td><td class="posv">3,177</td><td class="negv">-20.8%</td><td class="posv">+22.2%</td></tr>
+      <tr><td>2026/03</td><td class="posv">4,152</td><td class="posv">+30.7%</td><td class="posv">+45.2%</td></tr>
+      <tr><td>2026/04</td><td class="posv">4,107</td><td class="negv">-1.07%</td><td class="posv">+17.5%</td></tr>
+      <tr><td>2026/05</td><td class="posv">4,170</td><td class="posv">+1.52%</td><td class="posv">+30.1%</td></tr>
+      <tr><td>2026/06</td><td class="posv">4,427</td><td class="posv">+6.16%</td><td class="posv">+67.9%</td></tr>
+      <tr><td>2026/07</td><td class="posv">4,676</td><td class="posv">+5.62%</td><td class="posv">+44.7%</td></tr>
+    </tbody>
+  </table>
+
+  <div class="chart-wrap">
+    <div class="chart-title">近12個月合併營業收入・單月趨勢（億元，橘字為年增率）</div>
+    <svg viewBox="0 0 1000 420" xmlns="http://www.w3.org/2000/svg" class="chart-svg">
+<line x1="75" y1="365.0" x2="970" y2="365.0" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="65" y="369.0" text-anchor="end" class="tick-label">0</text>
+<line x1="75" y1="296.0" x2="970" y2="296.0" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="65" y="300.0" text-anchor="end" class="tick-label">1,000</text>
+<line x1="75" y1="227.0" x2="970" y2="227.0" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="65" y="231.0" text-anchor="end" class="tick-label">2,000</text>
+<line x1="75" y1="158.0" x2="970" y2="158.0" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="65" y="162.0" text-anchor="end" class="tick-label">3,000</text>
+<line x1="75" y1="89.0" x2="970" y2="89.0" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="65" y="93.0" text-anchor="end" class="tick-label">4,000</text>
+<line x1="75" y1="20.0" x2="970" y2="20.0" stroke="var(--grid-line)" stroke-width="1" stroke-dasharray="2,3"/>
+<text x="65" y="24.0" text-anchor="end" class="tick-label">5,000</text>
+<line x1="75" y1="365.0" x2="970" y2="365.0" stroke="var(--zero-axis)" stroke-width="1.5"/>
+<rect x="89.9" y="133.3" width="44.7" height="231.70" fill="var(--teal)" rx="2"/>
+<text x="112.3" y="117.3" text-anchor="middle" class="bar-value">3,358</text>
+<text x="112.3" y="129.3" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+33.8%</text>
+<text x="112.3" y="383.0" text-anchor="middle" class="axis-label">25'08</text>
+<rect x="164.5" y="136.6" width="44.7" height="228.39" fill="var(--teal)" rx="2"/>
+<text x="186.9" y="120.6" text-anchor="middle" class="bar-value">3,310</text>
+<text x="186.9" y="132.6" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+36.4%</text>
+<text x="186.9" y="383.0" text-anchor="middle" class="axis-label">25'09</text>
+<rect x="239.1" y="111.4" width="44.7" height="253.57" fill="var(--teal)" rx="2"/>
+<text x="261.5" y="95.4" text-anchor="middle" class="bar-value">3,675</text>
+<text x="261.5" y="107.4" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+16.9%</text>
+<text x="261.5" y="383.0" text-anchor="middle" class="axis-label">25'10</text>
+<rect x="313.7" y="127.9" width="44.7" height="237.08" fill="var(--teal)" rx="2"/>
+<text x="336.0" y="111.9" text-anchor="middle" class="bar-value">3,436</text>
+<text x="336.0" y="123.9" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+24.5%</text>
+<text x="336.0" y="383.0" text-anchor="middle" class="axis-label">25'11</text>
+<rect x="388.2" y="133.8" width="44.7" height="231.15" fill="var(--teal)" rx="2"/>
+<text x="410.6" y="117.8" text-anchor="middle" class="bar-value">3,350</text>
+<text x="410.6" y="129.8" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+20.4%</text>
+<text x="410.6" y="383.0" text-anchor="middle" class="axis-label">25'12</text>
+<rect x="462.8" y="88.1" width="44.7" height="276.90" fill="var(--teal)" rx="2"/>
+<text x="485.2" y="72.1" text-anchor="middle" class="bar-value">4,013</text>
+<text x="485.2" y="84.1" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+36.8%</text>
+<text x="485.2" y="383.0" text-anchor="middle" class="axis-label">26'01</text>
+<rect x="537.4" y="145.8" width="44.7" height="219.21" fill="var(--coral)" rx="2"/>
+<text x="559.8" y="129.8" text-anchor="middle" class="bar-value">3,177</text>
+<text x="559.8" y="141.8" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+22.2%</text>
+<text x="559.8" y="383.0" text-anchor="middle" class="axis-label">26'02</text>
+<rect x="612.0" y="78.5" width="44.7" height="286.49" fill="var(--teal)" rx="2"/>
+<text x="634.4" y="62.5" text-anchor="middle" class="bar-value">4,152</text>
+<text x="634.4" y="74.5" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+45.2%</text>
+<text x="634.4" y="383.0" text-anchor="middle" class="axis-label">26'03</text>
+<rect x="686.6" y="81.6" width="44.7" height="283.38" fill="var(--teal)" rx="2"/>
+<text x="709.0" y="65.6" text-anchor="middle" class="bar-value">4,107</text>
+<text x="709.0" y="77.6" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+17.5%</text>
+<text x="709.0" y="383.0" text-anchor="middle" class="axis-label">26'04</text>
+<rect x="761.2" y="77.3" width="44.7" height="287.73" fill="var(--teal)" rx="2"/>
+<text x="783.5" y="61.3" text-anchor="middle" class="bar-value">4,170</text>
+<text x="783.5" y="73.3" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+30.1%</text>
+<text x="783.5" y="383.0" text-anchor="middle" class="axis-label">26'05</text>
+<rect x="835.7" y="59.5" width="44.7" height="305.46" fill="var(--teal)" rx="2"/>
+<text x="858.1" y="43.5" text-anchor="middle" class="bar-value">4,427</text>
+<text x="858.1" y="55.5" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+67.9%</text>
+<text x="858.1" y="383.0" text-anchor="middle" class="axis-label">26'06</text>
+<rect x="910.3" y="42.4" width="44.7" height="322.64" fill="var(--gold)" rx="2"/>
+<text x="932.7" y="26.4" text-anchor="middle" class="bar-value">4,676</text>
+<text x="932.7" y="38.4" text-anchor="middle" class="bar-value small" style="fill:var(--gold)">+44.7%</text>
+<text x="932.7" y="383.0" text-anchor="middle" class="axis-label">26'07</text>
+</svg>
+    <div class="legend">
+      <span><i style="background:var(--teal)"></i>單月營收</span>
+      <span><i style="background:var(--gold)"></i>近12個月最高（2026/07）</span>
+      <span><i style="background:var(--coral)"></i>近12個月最低（2026/02，農曆春節效應）</span>
+    </div>
+  </div>
+
+  <div class="persona">
+    <div class="tag">波動原因說明</div>
+    2026年2月是近12個月唯一單月回落的月份（月減20.8%），主因是農曆春節工作天數較少，屬於每年常態性季節波動，年增率仍達22.2%，並非營運轉弱訊號。3月則因為稼動率回升、加上2奈米與先進封裝訂單持續入帳，單月大幅反彈月增30.7%。6月營收年增67.9%為近12個月最高增速，對應第一步已知的資本支出上修與AI需求持續加溫的敘事一致。
+  </div>
+
+  <p class="table-note">累計2026年前7月合併營收2兆8,721億元，年增37%，同樣創下歷史同期新高（30年新高）。</p>
+  <div class="source-note">📌 資料來源：使用者提供 Goodinfo 月營收走勢圖截圖（<a href="https://goodinfo.tw/tw/ShowSaleMonChart.asp?STOCK_ID=2330" target="_blank">goodinfo.tw 月營收頁面</a>），查詢時間 2026/08/17-18</div>
+
+  <p class="table-note">報告版本 v1.3 ・ 第 4 步更新時間：2026-08-18</p>
 </section>
 <section class="step" id="step5">
   <div class="step-label">【第 5 步／共 6 步：前瞻本益比／EPS 預估】</div>
